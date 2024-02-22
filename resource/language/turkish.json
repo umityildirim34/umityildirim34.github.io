@@ -1,0 +1,69 @@
+{
+    "sve_edp_education":
+    {   
+        "sve_edp_wgt_ttl_page_title": "EĞİTİM",
+
+        "sve_edp_wgt_ln_main_page": "ana sayfa",
+        "sve_edp_wgt_ln_explanation": "Ana sayfaya geçer.",
+        "sve_edp_wgt_ln_education": "EĞİTİM",
+        "sve_edp_wgt_ln_bau": "2008-2013 | Balıkesir Üniversitesi | Lisans | İktisat",
+        "sve_edp_wgt_ln_btk": "2020-2022 | Btk Akademi | Sertifika Eğitimleri",
+        "sve_edp_wgt_ln_aun": "2022-2024 | Anadolu Üniversitesi | Önlisans | Bilgisayar Programcılığı",
+
+        "sve_edp_wgt_alt_ic_bau": "Balıkesir Üniversitesi simgesi",
+        "sve_edp_wgt_alt_ic_btk": "Btk Akademi simgesi",
+        "sve_edp_wgt_alt_ic_aun": "Anadolu Üniversitesi simgesi"
+    },
+
+
+
+    "sve_fhfp_fourhundredandfour":
+    {
+        "sve_fhfp_jsp_ln_main_page": "ana sayfa",
+        "sve_fhfp_jsp_pg_error": "Afedersiniz. Aradığınız sayfa bulunamadı."
+    },
+
+
+
+    "sve_map_mainpage":
+    {
+        "sve_map_wgt_tt_website_title": "ANA SAYFA",
+        "sve_map_wgt_ic_website_icon": "Websitemin simgesi",
+        "sve_map_wgt_ic_menu_icon": "Menü simgesi",
+        "sve_map_wgt_ic_phone_icon": "Phone simgesi",
+        "sve_map_wgt_ic_email_icon": "Email simgesi",
+        "sve_map_wgt_ic_address_icon": "Address simgesi",
+        "sve_map_wgt_img_my_picture": "Resmim",
+        "sve_map_wgt_img_desktop": "Masaüstü resmi",
+        "sve_map_wgt_ln_phone_number": "0 544 525 82 01",
+        "sve_map_wgt_ln_email": "umityildirim3410@gmail.com",
+        "sve_map_wgt_ln_address": "Tarsus/Mersin",
+        "sve_map_wgt_menu_education_title": "Eğitim bilgileri sayfaya geçer.",
+        "sve_map_wgt_menu_education_item": "EĞİTİM",
+        "sve_map_wgt_menu_our_networks_title": "Geliştiricinin bağlantılarına ulaşabileceğimiz sayfaya geçer.",
+        "sve_map_wgt_menu_our_networks_item": "BAĞLANTILARIMIZ",
+        "sve_map_wgt_pg_name_surname": "Ümit Yıldırım",
+        "sve_map_wgt_pg_department": "Yazılım Mühendisi"
+    },
+
+
+
+    "sve_onp_our_networks":
+    {   
+        "sve_onp_wgt_ttl_page_title": "BAĞLANTILARIMIZ",
+
+        "sve_onp_wgt_ln_main_page": "ana sayfa",
+        "sve_onp_wgt_ln_explanation": "Ana sayfaya geçer.",
+        "sve_onp_wgt_ln_our_networks": "BAĞLANTILARIMIZ",
+        "sve_onp_wgt_ln_whatsapp": "+95445258201",
+        "sve_onp_wgt_ln_telegram": "https://t.me/umityildirim34",
+        "sve_onp_wgt_ln_instagram": "https://www.instagram.com/umityildirim3410",
+
+        "sve_onp_wgt_alt_ic_whatsapp": "Whatsapp simgesi",
+        "sve_onp_wgt_alt_ic_telegram": "Telegram simgesi",
+        "sve_onp_wgt_alt_ic_instagram": "Instagram simgesi",
+
+        "sve_onp_jsp_msg_body": "Merhabalar&nbsp;",
+        "sve_onp_jsp_msg_number": "+905445258201"
+    }
+}

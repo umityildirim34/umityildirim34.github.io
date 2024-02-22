@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@media all and (orientation:portrait) {
+
+  body {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #eaeaea;
+  }
+
+
+  #onp-div-main-widget {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: auto;
+  }
+   
+
+  .onp-dvc-divisions {
+    border-width: 0.3vw;
+    margin: 2.5vw;
+    background: white;
+    border-radius: 1vw;
+    box-shadow: 3px 3px 4px #c1c1c1;
+  }
+
+
+  #onp-div-website-path {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .onp-lnc-links {
+    font-size: 5vw;
+    text-align: center;
+  }
+  
+  
+  #onp-div-networks {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .onp-dvc-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .onp-dvc-icon {
+    width: auto;
+    height: 9vw;
+    margin: 1vw;
+  }
+
+
+  .onp-dvc-network-link {
+    width: 56vw;
+    height: 13vh;
+    font-size: 3.7vw;
+    margin-left: 1vw;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+
+  #onp-pg-network-text, #onp-pg-developer {
+    margin: 1vw;
+    font-size: 4.5vw;
+    text-align: center;
+  }
+  
+}
+
+/* Yatay görüntüde margin değerlerini tek tek verdik. Çünkü bunda display flex kullandık (kapsayıcı div içinde) */
