@@ -1,0 +1,69 @@
+{
+
+    "sve_fhfp_four_hundred_and_four":
+    {
+        "sve_fhfp_wgt_head_side":
+        {
+            "sve_fhfp_wgt_tt1_page_title": "404 SAYFASI"
+        },
+
+
+        "sve_fhfp_wgt_link_path":
+        {
+            "sve_fhfp_wgt_lnk_main_page": "ana sayfa",
+            "sve_fhfp_wgt_lnk_four_hundred_and_four": "404 sayfası"
+        },
+        
+
+        "sve_fhfp_wgt_process":
+        {
+            "sve_fhfp_wgt_tt1_error": "404 Hatası",
+            "sve_fhfp_wgt_pgf_error": "Afedersiniz. Aradığınız sayfa bulunamadı."
+        }
+    },
+
+
+
+    "sve_map_mainpage":
+    {
+        "sve_map_wgt_ttl_page_title": "ANA SAYFA",
+        "sve_map_wgt_icn_website_icon": "Websitemin simgesi",
+
+        "sve_map_wgt_icn_head_facebook": "Facebook simgesi",
+        "sve_map_wgt_icn_head_instagram": "Instagram simgesi",
+        "sve_map_wgt_icn_head_linkedin": "Linkedin simgesi",
+
+        "sve_map_wgt_menu_about_me_title": "Hakkımda adlı sayfaya geçer.",
+        "sve_map_wgt_menu_about_me_item": "HAKKIMDA",
+        "sve_map_wgt_menu_communication_title": "Geliştiyle iletişim kurabileceğimiz sayfaya geçer.",
+        "sve_map_wgt_menu_communication_item": "İLETİŞİM",
+
+        "sve_map_wgt_ic_menu_icon": "Menü simgesi",
+        "sve_map_wgt_ic_phone_icon": "Phone simgesi",
+        "sve_map_wgt_ic_email_icon": "Email simgesi",
+        "sve_map_wgt_ic_address_icon": "Address simgesi",
+
+        "sve_map_wgt_icn_desktop": "Masaüstü simgesi",
+
+        "sve_map_wgt_pg_name_surname": "Ümit Yıldırım",
+        "sve_map_wgt_pg_department": "Yazılım Mühendisi",
+        "sve_map_wgt_ln_phone_number": "0544 525 82 01",
+        "sve_map_wgt_ln_email": "umityildirim3410@gmail.com",
+        "sve_map_wgt_ln_address": "Tarsus/Mersin",
+
+        "sve_map_wgt_tt1_about_me": "HAKKIMDA",
+        "sve_map_wgt_pgf_about_me": "Merhaba, adım Ümit. İstanbul'da doğdum. 35 yaşındayım. Yazılım mühendisiyim.",
+
+        "sve_map_wgt_tt1_communication": "İLETİŞİM",
+        "sve_onp_wgt_pgf_communication": "0544 525 82 01",
+
+        "sve_map_wgt_img_my_picture": "Resmim",
+        
+        "sve_map_wgt_icn_bt_facebook": "Facebook simgesi",
+        "sve_map_wgt_icn_bt_instagram": "Instagram simgesi",
+        "sve_map_wgt_icn_bt_linkedin": "Linkedin simgesi",
+
+        "sve_map_wgt_pgf_copyright": "2024. Tüm hakları saklıdır."
+    }
+    
+}
