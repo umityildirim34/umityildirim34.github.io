@@ -1,0 +1,13 @@
+
+
+var intFinalNote;
+
+
+
+
+
+class MainpageMethods {
+
+  
+    
+}
