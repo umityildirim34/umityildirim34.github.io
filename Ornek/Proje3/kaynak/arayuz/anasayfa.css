@@ -1,0 +1,37 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#asf-blm-ana-arayuz {
+    width: 50vw;
+    height: 40vh;
+    border: 3px solid #000000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+a {
+    font-size: 2vw;
+}
+
+
+p {
+    margin-top: 1vw;
+    font-size: 3vw;
+}
