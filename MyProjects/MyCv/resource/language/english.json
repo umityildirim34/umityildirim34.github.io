@@ -1,0 +1,69 @@
+{
+    "sve_fhfp_four_hundred_and_four":
+    {
+        "sve_fhfp_wgt_head_side":
+        {
+            "sve_fhfp_wgt_tt1_page_title": "404 PAGE"
+        },
+
+
+        "sve_fhfp_wgt_link_path":
+        {
+            "sve_fhfp_wgt_lnk_main_page": "main page",
+            "sve_fhfp_wgt_lnk_four_hundred_and_four": "404 page"
+        },
+        
+
+        "sve_fhfp_wgt_process":
+        {
+            "sve_fhfp_wgt_tt1_error": "404 Error",
+            "sve_fhfp_wgt_pgf_error": "Sorry. The page is not found."
+        }
+    },
+
+
+
+    "sve_map_mainpage":
+    {   
+        "sve_map_wgt_ttl_page_title": "MAIN PAGE",
+        "sve_map_wgt_icn_website_icon": "My website icon",
+
+        "sve_map_wgt_icn_head_facebook": "Facebook icon",
+        "sve_map_wgt_icn_head_instagram": "Instagram icon",
+        "sve_map_wgt_icn_head_linkedin": "Linkedin icon",
+
+        "sve_map_wgt_menu_about_me_title": "Passing to the page named about me.",
+        "sve_map_wgt_menu_about_me_item": "ABOUT ME",
+        "sve_map_wgt_menu_communication_title": "Passing to the page we contact developer.",
+        "sve_map_wgt_menu_communication_item": "COMMUNICATION",
+
+        "sve_map_wgt_ic_menu_icon": "Menu icon",
+        "sve_map_wgt_ic_phone_icon": "Phone icon",
+        "sve_map_wgt_ic_email_icon": "Email icon",
+        "sve_map_wgt_ic_address_icon": "Address icon",
+
+        "sve_map_wgt_icn_desktop": "Desktop icon",
+
+        "sve_map_wgt_pg_name_surname": "Richard Lee",
+        "sve_map_wgt_pg_department": "Software Engineer",
+
+        "sve_map_wgt_ln_phone_number": "0544 525 82 01",
+        "sve_map_wgt_ln_email": "umityildirim3410@gmail.com",
+        "sve_map_wgt_ln_address": "Tarsus/Mersin",
+
+        "sve_map_wgt_tt1_about_me": "ABOUT ME",
+        "sve_map_wgt_pgf_about_me": "Hello, my name is Ümit. I was born in İstanbul. I am 35 years old. I am a software engineer.",
+
+        "sve_map_wgt_tt1_communication": "COMMUNICATION",
+        "sve_onp_wgt_pgf_communication": "0544 525 82 01",
+        
+        "sve_map_wgt_img_my_picture": "My picture",
+        
+        "sve_map_wgt_icn_bt_facebook": "Facebook icon",
+        "sve_map_wgt_icn_bt_instagram": "Instagram icon",
+        "sve_map_wgt_icn_bt_linkedin": "Linkedin icon",
+
+        "sve_map_wgt_pgf_copyright": "2024. All rights reserved."
+    }
+
+}

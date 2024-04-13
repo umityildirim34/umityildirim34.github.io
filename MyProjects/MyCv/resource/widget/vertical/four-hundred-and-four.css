@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@media all and (orientation:portrait) {
+  
+  @keyframes acilan_resim_animasyonu {
+    from {
+      transform:translateX(-100vw);
+    }
+    to {
+      transform:translateX(0vw);
+    }
+  }
+
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    grid-template-columns: 1fr;
+    grid-gap: 2vw;
+    padding: 2vw;
+    background-color: #d4d3d3;
+    animation: acilan_resim_animasyonu 0.3s normal forwards linear;
+    overflow-x: hidden;
+  }
+  
+  /*-- ----------------------- Link Path --------------------------  */
+  /* ------------------- ---------------------------------------- -- */
+  #fhfp-div-link-path {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .fhfp-lnkc-links {
+    font-size: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*-- ------------------------- Process --------------------------  */
+  /* ------------------- ---------------------------------------- -- */
+  #fhfp-div-process-widget {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .fhfp-dvc-divisions {
+    border-radius: 0.5vw;
+    box-shadow: 3px 3px 4px #7a7a7a;
+    background-color: white;
+  }
+
+  
+  #fhfp-pgf-error {
+    font-size: 5.1vw;
+    text-align: center;
+  }
+
+
+  h1 {
+    font-size: 13vw;
+  }
+  
+}
