@@ -1,0 +1,93 @@
+{
+    "sve_amp_about_me":
+    {   
+        "sve_amp_wgt_ttl_page_title": "ABOUT ME",
+
+        "sve_amp_wgt_lnk_main_page": "main page",
+        "sve_amp_wgt_lnk_explanation": "Passing to main page.",
+        "sve_amp_wgt_lnk_about_me": "ABOUT ME",
+
+        "sve_amp_wgt_img_about_me": "About me image",
+
+        "sve_amp_wgt_pgf_about_me": "Hello, my name is Richard. I was born in Beijing. I am 25 years old. I work at a hospital as a heart surgeon."
+    },
+
+
+
+    "sve_fhfp_four_hundred_and_four":
+    {
+        "sve_fhfp_wgt_head_side":
+        {
+            "sve_fhfp_wgt_tt1_page_title": "404 PAGE"
+        },
+
+
+        "sve_fhfp_wgt_link_path":
+        {
+            "sve_fhfp_wgt_lnk_main_page": "main page",
+            "sve_fhfp_wgt_lnk_four_hundred_and_four": "404 page"
+        },
+        
+
+        "sve_fhfp_wgt_process":
+        {
+            "sve_fhfp_wgt_tt1_error": "404 Error",
+            "sve_fhfp_wgt_pgf_error": "Sorry. The page is not found."
+        }
+    },
+
+
+
+    "sve_map_mainpage":
+    {   
+        "sve_map_wgt_ttl_page_title": "MAIN PAGE",
+        "sve_map_wgt_icn_website_icon": "My website icon",
+
+        "sve_map_wgt_icn_head_facebook": "Facebook icon",
+        "sve_map_wgt_icn_head_instagram": "Instagram icon",
+        "sve_map_wgt_icn_head_linkedin": "Linkedin icon",
+
+        "sve_map_wgt_ic_menu_icon": "Menu icon",
+        "sve_map_wgt_ic_phone_icon": "Phone icon",
+        "sve_map_wgt_ic_email_icon": "Email icon",
+        "sve_map_wgt_ic_address_icon": "Address icon",
+        "sve_map_wgt_img_my_picture": "My picture",
+        "sve_map_wgt_icn_heart": "Heart icon",
+        "sve_map_wgt_ln_phone_number": "0 123 456 78 90",
+        "sve_map_wgt_ln_email": "richardlee@mail.com",
+        "sve_map_wgt_ln_address": "Beijing/China",
+        "sve_map_wgt_menu_about_me_title": "Passing to the page named about me.",
+        "sve_map_wgt_menu_about_me_item": "ABOUT ME",
+        "sve_map_wgt_menu_our_networks_title": "Passing to the page we reach developer networks.",
+        "sve_map_wgt_menu_our_networks_item": "OUR NETWORKS",
+        "sve_map_wgt_pg_name_surname": "Richard Lee",
+        "sve_map_wgt_pg_department": "Software Engineer",
+
+        "sve_map_wgt_icn_bt_facebook": "Facebook icon",
+        "sve_map_wgt_icn_bt_instagram": "Instagram icon",
+        "sve_map_wgt_icn_bt_linkedin": "Linkedin icon",
+
+        "sve_map_wgt_pgf_copyright": "2024. All rights reserved."
+    },
+
+
+
+    "sve_onp_our_networks":
+    {   
+        "sve_onp_wgt_ttl_page_title": "OUR NETWORKS",
+
+        "sve_onp_wgt_lnk_main_page": "main page",
+        "sve_onp_wgt_lnk_explanation": "Passing to main page.",
+        "sve_onp_wgt_lnk_our_networks": "OUR NETWORKS",
+        "sve_onp_wgt_lnk_whatsapp": "+901234567890",
+        "sve_onp_wgt_lnk_telegram": "https://t.me/richardlee",
+        "sve_onp_wgt_lnk_instagram": "https://www.instagram.com",
+
+        "sve_onp_wgt_alt_icn_whatsapp": "Whatsapp icon",
+        "sve_onp_wgt_alt_icn_telegram": "Telegram icon",
+        "sve_onp_wgt_alt_icn_instagram": "Instagram icon",
+
+        "sve_onp_jsp_msg_body": "Hello&nbsp;",
+        "sve_onp_jsp_msg_number": "+901234567890"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "sve_fhfp_wgt_head_side":
+    {
+        "sve_fhfp_wgt_tt1_page_title": "404 PAGE"
+    },
+
+
+    "sve_fhfp_wgt_link_path":
+    {
+        "sve_fhfp_wgt_lnk_main_page": "main page",
+        "sve_fhfp_wgt_lnk_four_hundred_and_four": "404 page"
+    },
+    
+
+    "sve_fhfp_wgt_process":
+    {
+        "sve_fhfp_wgt_tt1_error": "404 Error",
+        "sve_fhfp_wgt_pgf_error": "Sorry. The page is not found."
+    }
+}
