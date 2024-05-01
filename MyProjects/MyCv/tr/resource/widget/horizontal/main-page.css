@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+	--first-degree-light-gray: #e0dede;
+	--second-degree-light-gray: #b1aeae;
+}
+
+
+@media all and (orientation:landscape) {
+   
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d3d3;
+  }
+
+
+  /* ------------------------- Main Widget ------------------------ */
+  /* -------------------------------------------------------------- */
+  /* -------------------------------------------------------------- */
+  #map-div-main-widget {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 9fr 82fr 9fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: #d4d3d3;
+    animation: acilan_resim_animasyonu 0.3s normal forwards linear;
+  }
+    
+
+
+  /* ------------------------------ Head -------------------------------- */
+  /* -------------------------------------------------------------------- */
+  #map-hdr-head {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #eeecec;
+  }
+
+
+  .map-dvc-divisions {
+    z-index: 1;
+  }
+
+
+  #map-img-networks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 1vw;
+  }
+
+
+  .map-icnc-head-icons {
+    margin-right: 1vw;
+    width: auto;
+    height: 4vh;
+    margin: 0.6vw;
+  }
+
+  
+
+  /* --------------------------------- Info ----------------------------- */
+  /* -------------------------------------------------------------------- */
+  #map-div-info {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-rows: 11% 90% 87% 100%;
+    grid-template-columns: 100%;
+    overflow: auto;
+    background-color: white;
+  }
+
+  /* ------------------------------- Menu Bar --------------------------- */
+  #map-nav-menu-bar {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+
+  #map-div-menu-button {
+    display: none;
+  }
+
+
+  #map-div-horizontal-menu {
+    width: 27vw;
+    height: 8.8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .map-dvc-hrz-menu {
+    width: 11vw;
+    height: 8.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    text-decoration: none;
+  }
+
+
+  .map-dvc-hrz-menu:hover {
+    width: 11vw;
+    height: 8.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    text-decoration: none;
+  }
+
+  /* --------------------------- Personel Info -------------------------- */
+  #map-div-personel-info {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #map-div-first-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #map-div-name-division {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  #map-pgf-name-surname {
+    font-size: 3vw;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  #map-pgf-department {
+    font-size: 2.5vw;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blue;
+  }
+
+
+  #map-icn-desktop {
+    width: auto;
+    height: 17vh;
+    margin-left: 1.5vw;
+    opacity: 0.4;
+  }
+
+
+  .map-dvc-network {
+    width: 25vw;
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .map-dvc-network-icon {
+    width: auto;
+    height: 5vh;
+    margin: 0.5vw;
+  }
+
+
+  .map-lnkc-network-link {
+    width: 25vw;
+    height: 11vh;
+    font-size: 1.4vw;
+    margin-left: 0.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  /* ----------------------------- About Me ----------------------------- */
+  #map-div-about-me {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+
+  h1 {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+
+  #map-pgf-about-me {
+    font-size: 2vw;
+    text-indent: 11px;
+  }
+
+  /* -------------------------- Communication --------------------------- */
+  #map-div-communication {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+
+  #map-pgf-communication {
+    font-size: 2vw;
+    text-indent: 11px;
+    text-align: center;
+  }
+
+
+
+  /* ----------------------------- My Picture --------------------------- */
+  /* -------------------------------------------------------------------- */
+  #map-div-my-picture {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5f9ea0;
+  }
+
+
+  #map-img-my-picture {
+    width: auto;
+    height: 77vh;
+    border-radius: 1vw;
+  }
+  
+  
+
+  /* ----------------------- Menü List (Over divisions) ----------------- */
+  /* -------------------------------------------------------------------- */
+  #map-asd-menu-lst {
+    display: none;
+  }
+
+
+
+  /* ---------------------------- Bottom Side --------------------------- */
+  /* -------------------------------------------------------------------- */
+  #map-ftr-bottom-side {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeecec;
+  }
+
+
+  .map-icnc-bottom-icons {
+    width: auto;
+    height: 3.8vh;
+    margin: 0.3vw;
+  }
+
+
+  #map-pgf-copyright {
+    font-size: 1vw;
+  }
+
+  /* -------------------------------------------------------------------- */
+
+}
