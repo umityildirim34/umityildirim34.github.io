@@ -9,11 +9,11 @@ faydalınabilir. Çünkü metinler birikirse "case" kısmına yazılması zorla�
 */
 switch (dlDil) {
     case "tr-TR":
-        window.location.href = "MyProjects/MyCv/tr/index.html";
+        window.location.href = "MyProjects/MyCv/tr/main-page.html";
         etkCikti.innerText = "Yönlendiriliyorsunuz. Lütfen bekleyin...";
         break;
   
     default:
-        window.location.href = "MyProjects/MyCv/en/index.html";
+        window.location.href = "MyProjects/MyCv/en/main-page.html";
         etkCikti.innerText = "Directing. Please wait...";
 }
