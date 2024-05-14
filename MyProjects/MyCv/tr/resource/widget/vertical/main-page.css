@@ -42,8 +42,8 @@ body {
     width: 95vw;
     height: 300vh;
     display: grid;
-    grid-template-rows: 3fr 3fr 17fr 10fr 10fr 10fr 15fr 5fr 15fr 5fr 7fr;
-    grid-template-columns: auto;
+    grid-template-rows: 3% 3% 17% 10% 10% 10% 15% 5% 15% 5% 7%;
+    grid-template-columns: 100%;
     gap: 7px;
     margin: 7px;
     border: 1px solid red;
