@@ -43,10 +43,11 @@ body {
     height: 300vh;
     display: grid;
     grid-template-rows: 3fr 3fr 17fr 10fr 10fr 10fr 15fr 5fr 15fr 5fr 7fr;
-    grid-template-columns: 100vw;
+    grid-template-columns: 1fr;
     gap: 7px;
     margin: 7px;
     border: 1px solid red;
+    overflow-x: hidden;
   }
 
 
