@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  border: 1px solid blue;
 }
   
   
@@ -46,6 +46,7 @@ body {
     grid-template-columns: 1fr;
     gap: 7px;
     margin: 7px;
+    border: 1px solid red;
   }
 
 
