@@ -17,7 +17,7 @@ body {
   
 @media all and (orientation:portrait) {
 
-  /* --------------------------- Animation ------------------------- 
+  /* --------------------------- Animation ------------------------- */
   @keyframes my_animation {
     from {
         opacity: 0;
@@ -33,7 +33,7 @@ body {
   .my-animation {
     animation: 0.8s ease-out 0s 1 my_animation forwards;
   }
-  */
+  
 
   /* ------------------------- Main Widget ------------------------ */
   /* -------------------------------------------------------------- */
@@ -43,7 +43,7 @@ body {
     height: 300vh;
     display: grid;
     grid-template-rows: 3fr 3fr 17fr 10fr 10fr 10fr 15fr 5fr 15fr 5fr 7fr;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100vw;
     gap: 7px;
     margin: 7px;
     border: 1px solid red;
