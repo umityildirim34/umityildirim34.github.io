@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+	--first-degree-light-gray: #e0dddd;
+	--second-degree-light-gray: #c5c3c3;
+}
+
+
+@media all and (orientation:landscape) {
+  
+  @keyframes acilan_resim_animasyonu {
+    from {
+      transform:translateY(-100vw);
+    }
+    to {
+      transform:translateY(0vw);
+    }
+  }
+
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 7fr 93fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    background-color: var(--first-degree-light-gray) !important;
+    animation: acilan_resim_animasyonu 0.3s normal forwards linear;
+  }
+   
+
+    
+  /* ----------------------- Menu Bar ----------------------- */
+  /* -------------------------------------------------------- */
+  #map-nav-menu-bar {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+  }
+
+
+  #map-div-menu-button {
+    display: none;
+  }
+
+
+  #map-div-horizontal-menu {
+    width: 47vw;
+    height: 6.7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .map-lnkc-hrz-menu {
+    height: 6.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+    margin-right: 1.3vw;
+    padding: 1vw;
+    text-decoration: none;
+  }
+
+
+  .map-lnkc-hrz-menu:hover {
+    height: 6.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+    margin-right: 1.3vw;
+    padding: 1vw;
+    text-decoration: none;
+    background-color: #dfdede;
+  }
+
+
+
+  /* ----------------------- Process ------------------------ */
+  /* -------------------------------------------------------- */
+  #map-div-process {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .map-dvc-sub-program {
+    border-radius: 0.5vw;
+    box-shadow: 3px 3px 4px #7a7a7a;
+    background-color: white;
+  }
+
+
+  .map-dvc-input-group {
+    height: 7vh;
+    margin: 3px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+
+  .map-inpc-inputs {
+    flex: 9;
+    padding-left: 0.5vw;
+    font-size: 2vw;
+  }
+
+
+  #map-slt-accounts {
+    height: 7vh;
+    margin: 0.3vw;
+  }
+
+
+  .map-btnc-inputs-buttons {
+    flex: 1;
+  }
+  
+  
+  .map-btnc-buttons {
+    height: 6vh;
+    margin: 0.5vw;
+    font-size: 1.5vw;
+  }
+
+
+  #map-div-two-buttons1, #map-div-two-buttons2, #map-div-two-buttons3 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  
+  .map-btnc-two-buttons {
+    flex: 1;
+    margin: 0.2vw;
+    font-size: 1.5vw;
+  }
+
+
+  /* ------------------------- Table ------------------------ */
+  /* -------------------------------------------------------- */
+  #map-div-table {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    overflow: auto;
+  }
+  
+  
+  #map-tbl-my-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+
+  table th:nth-child(1){
+    display: none;
+  }
+
+
+  table td:nth-child(1){
+    display: none;
+  }
+
+
+  table th:nth-child(4) {
+    display: none;
+  }
+
+
+  table td:nth-child(4) {
+    display: none;
+  }
+
+
+  table th:nth-child(7) {
+    display: none;
+  }
+
+
+  table td:nth-child(7) {
+    display: none;
+  }
+
+
+  table th:nth-child(8) {
+    display: none;
+  }
+
+
+  table td:nth-child(8) {
+    display: none;
+  }
+  
+  
+  table tr:not(:first-child):hover {
+    background-color:#bef062;
+    color:#2f3e42;
+  }
+  
+  
+  th {
+    padding: 1vw;
+    font-size: 1.9vw;
+    background: #002363;
+    color: white;
+    word-wrap: break-word;
+    position: sticky;
+    top: 0;
+  }
+  
+
+  td {
+    padding: 1vw;
+    font-size: 1.9vw;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+
+  tr:nth-child(even) {
+    background: #eeeeee;
+  }
+
+  
+  tr:nth-child(odd) {
+    background: white;
+  }
+
+  /* ------------------------- Menü List --------------------------- */
+  /* --------------------------------------------------------------- */
+  #map-asd-menu-lst {
+    display: none;
+  }
+  /* --------------------------------------------------------------- */
+  /* --------------------------------------------------------------- */
+
+}

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="tr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="map-ttl-page-title">ANA SAYFA</title>
+    <link href="resource/widget/horizontal/main-page.css" rel="stylesheet" type="text/css">
+    <link href="resource/widget/vertical/main-page.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+	  
+    <!-- ------------------------- Menu Bar ------------------------- -->
+    <!-- ------------------------------------------------------------ -->
+    <nav id="map-nav-menu-bar" class="map-dvc-sub-program">
+      
+      <div id="map-div-menu-button">
+        <img id="map-icn-menu" src="resource/pictures/ic_menu_20220421_212223.png" alt="Menü simgesi">
+      </div>
+      
+      <div id="map-div-horizontal-menu">
+        <a id="map-hlnk-our-networks" class="map-lnkc-hrz-menu" href="our-networks.html" title="Geliştiricinin bağlantılarına ulaşabileceğimiz sayfaya geçer">BAĞLANTILARIMIZ</a>
+        <a id="map-hlnk-about" class="map-lnkc-hrz-menu" href="about.html" title="Uygulama hakkında bilgi alabileceğimiz sayfaya geçer.">ABOUT</a>
+        <a id="map-hlnk-user-agreement" class="map-lnkc-hrz-menu" href="user-agreement.html" title="Kullanıcı sözleşmesi sayfasına geçer.">KULLANICI SÖZLEŞMESİ</a>
+      </div>
+      
+    </nav>
+  
+    <!-- ------------------------- Process -------------------------- -->
+    <!-- ------------------------------------------------------------ -->
+    <div id="map-div-process" class="map-dvc-sub-program">
+
+      <div class="map-dvc-input-group">
+        <input id="map-inp-account-name" class="map-inpc-inputs" type="text" placeholder="Hesap ismi giriniz...">
+        <button id="map-btn-clear1" class="map-btnc-inputs-buttons">X</button>
+      </div>
+
+      <div class="map-dvc-input-group">
+        <input id="map-inp-account-quantity" class="map-inpc-inputs" type="number" placeholder="Miktar giriniz...">
+        <button id="map-btn-clear2" class="map-btnc-inputs-buttons">X</button>
+      </div>
+
+      <div class="map-dvc-input-group">
+        <input id="map-inp-account-detail" class="map-inpc-inputs" type="text" placeholder="Detay giriniz...">
+        <button id="map-btn-clear3" class="map-btnc-inputs-buttons">X</button>
+      </div>
+
+      <select id="map-slt-accounts">
+				<option selected value="pls-choose">SEÇİNİZ</option>
+	    	<option value="active-account">AKTİF HESAP</option>
+				<option value="passive-account">PASİF HESAP</option>
+      </select>
+      
+      <div id="map-div-two-buttons1" class="map-btnc-buttons">
+        <button id="map-btn-add-account" class="map-btnc-two-buttons">HESAP EKLE</button>
+        <button id="map-btn-extract-of-account" class="map-btnc-two-buttons">HESAP ÖZETİ</button>
+      </div>
+
+      <div id="map-div-two-buttons2" class="map-btnc-buttons">
+        <button id="map-btn-increase-quantity" class="map-btnc-two-buttons">MİKTAR ARTIR</button>
+        <button id="map-btn-reduce-quantity" class="map-btnc-two-buttons">MİKTAR AZALT</button>
+      </div>
+      
+      <div id="map-div-two-buttons3" class="map-btnc-buttons">
+        <button id="map-btn-total" class="map-btnc-two-buttons">TOPLAM</button>
+        <button id="map-btn-delete-account" class="map-btnc-two-buttons">HESAP SİL</button>
+        <button id="map-btn-reset" class="map-btnc-two-buttons">SIFIRLA</button>
+      </div>
+      
+    </div>
+
+    <!-- -------------------------- Table --------------------------- -->
+    <!-- ------------------------------------------------------------ -->
+    <div id="map-div-table" class="map-dvc-sub-program">
+
+      <table id="map-tbl-my-table">
+        <tr>
+          <th id="map-cth-account-order">SIRA</th>
+          <th id="map-cth-active-account-name">AKTİF HESAP İSMİ</th>
+          <th id="map-cth-active-account-quantity">AKTİF HESAP MİKTARI</th>
+          <th id="map-cth-active-account-detail">AKTİF HESAP DETAYI</th>
+          <th id="map-cth-passive-account-name">PASİF HESAP İSMİ</th>
+          <th id="map-cth-passive-account-quantity">PASİF HESAP MİKTARI</th>
+          <th id="map-cth-passive-account-detail">PASİF HESAP DETAYI</th>
+          <th id="map-cth-account-type">HESAP TÜRÜ</th>
+        </tr>
+      </table>
+
+    </div>
+  
+    <!-- ------------------- Menu Lst (Over divisions) -------------- -->
+    <!-- ------------------------------------------------------------ -->
+    <aside id="map-asd-menu-lst">
+      <button id="map-btn-menu-lst-close">X</button>
+      <a id="map-vlnk-our-networks" class="map-lnkc-vrt-menu" href="our-networks.html" title="Geliştiricinin bağlantılarına ulaşabileceğimiz sayfaya geçer.">BAĞLANTILARIMIZ</a>
+      <a id="map-vlnk-about" class="map-lnkc-vrt-menu" href="about.html" title="Uygulama hakkında bilgi alabileceğimiz sayfaya geçer.">HAKKINDA</a>
+      <a id="map-vlnk-user-agreement" class="map-lnkc-vrt-menu" href="user-agreement.html" title="Kullanıcı sözleşmesi sayfasına geçer.">KULLANICI SÖZLEŞMESİ</a>
+    </aside>
+    <!-- ------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------ -->
+    
+		<script src="resource/program/main-page.js" type="module"></script>
+
+    <script src="resource/exception-and-methods/exceptions/a-hundred-thousand-exception.js" type="text/javascript"></script>
+    <script src="resource/exception-and-methods/exceptions/character-count-exception.js" type="text/javascript"></script>
+	  <script src="resource/exception-and-methods/exceptions/negative-value-exception.js" type="text/javascript"></script>
+    <script src="resource/exception-and-methods/exceptions/no-account-exists-exception.js" type="text/javascript"></script>
+    <script src="resource/exception-and-methods/exceptions/no-selected-value-exception.js" type="text/javascript"></script>
+    <script src="resource/exception-and-methods/exceptions/null-value-exception.js" type="text/javascript"></script>
+    <script src="resource/exception-and-methods/exceptions/table-head-exception.js" type="text/javascript"></script>
+    
+    <script src="resource/exception-and-methods/methods/general-methods.js" type="text/javascript"></script>
+    <script src="resource/exception-and-methods/methods/mainpage-methods.js" type="text/javascript"></script>
+
+	</body>
+	
+</html>

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@media all and (orientation:portrait) {
+  
+  @keyframes acilan_resim_animasyonu {
+    from {
+      transform:translateX(-100vw);
+    }
+    to {
+      transform:translateX(0vw);
+    }
+  }
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d3d3;
+  }
+
+
+  /* ------------------------- Main Widget ------------------------ */
+  /* -------------------------------------------------------------- */
+  /* -------------------------------------------------------------- */
+  #uap-div-main-widget {
+    width: 95vw;
+    height: 97.5vh;
+    display: grid;
+    grid-template-rows: 2fr 23fr;
+    grid-template-columns: 1fr;
+    gap: 7px;
+    margin: 7px;
+    background-color: #d4d3d3;
+    animation: acilan_resim_animasyonu 0.3s normal forwards linear;
+  }
+
+
+  /*-- ----------------------- Website Path -----------------------  */
+  /* ------------------- ---------------------------------------- -- */
+  #uap-div-website-path {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .uap-dvc-divisions {
+    border-radius: 0.5vw;
+    box-shadow: 3px 3px 4px #7a7a7a;
+    background-color: white;
+  }
+
+
+  .uap-lnkc-links {
+    font-size: 4.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*-- ----------------------- Agreement --------------------------  */
+  /* ------------------- ---------------------------------------- -- */
+  #uap-div-agreement {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    overflow: auto;
+  }
+
+
+  #uap-pgf-agreement {
+    margin: 1vw;
+    font-size: 5vw;
+  }
+  
+}

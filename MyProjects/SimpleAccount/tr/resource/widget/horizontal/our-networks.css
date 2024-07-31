@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+@media all and (orientation:landscape) {
+  
+  @keyframes acilan_resim_animasyonu {
+    from {
+      transform:translateY(100vw);
+    }
+    to {
+      transform:translateY(0vw);
+    }
+  }
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d3d3;
+  }
+
+
+  /* ------------------------- Main Widget ------------------------ */
+  /* -------------------------------------------------------------- */
+  /* -------------------------------------------------------------- */
+  #onp-div-main-widget {
+    width: 98vw;
+    height: 97.5vh;
+    display: grid;
+    grid-template-rows: 2fr 23fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+    margin: 7px;
+    background-color: #d4d3d3;
+    animation: acilan_resim_animasyonu 0.3s normal forwards linear;
+  }
+
+
+
+  /* ------------------------- Website Path ----------------------- */
+  /* -------------------------------------------------------------- */
+  #onp-div-website-path {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .onp-dvc-divisions {
+    border-radius: 0.5vw;
+    box-shadow: 3px 3px 4px #7a7a7a;
+    background-color: white;
+  }
+
+
+  .onp-lnkc-links {
+    font-size: 1.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*-- ----------------------- Network Text -----------------------  */
+  /* ------------------- ---------------------------------------- -- */
+  #onp-div-network-text {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /*-- ----------------------- Network ----------------------------  */
+  #onp-div-network {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+
+  #onp-div-button {
+    text-align: center;
+  }
+
+  
+  .onp-dvc-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .onp-imgc-icon {
+    width: auto;
+    height: 10vh;
+    margin: 0.5vw;
+  }
+
+
+  .onp-lnkc-network-link {
+    width: 25vw;
+    height: 11vh;
+    font-size: 1.4vw;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+  #onp-pgf-network-text, #onp-pgf-developer {
+    font-size: 2vw;
+    margin: 0.3vw;
+    text-align: center;
+  }
+  
+}
+
+/* Yatay görüntüde margin değerlerini tek yek verdik. Çünkü bunda display flex kullandık (kapsayıcı div içinde) */
