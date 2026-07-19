@@ -1,4 +1,4 @@
-var pgfOutput = document.getElementById("inp-pgf-output");
+let pgfOutput = document.getElementById("inp-pgf-output");
 
 
 
@@ -11,11 +11,11 @@ faydalınabilir. Çünkü metinler birikirse "case" kısmına yazılması zorla�
 */
 switch (strLanguage) {
    case "tr":
-      window.location.href = "MyProject/MyCv/main-page/main-page-codes/widget/main-page.html";
+      window.location.href = "MyProjects/MyCv/main-page/main-page-codes/widget/main-page.html";
       pgfOutput.innerText = "Yönlendiriliyorsunuz. Lütfen bekleyin...";
       break;
 
    default:
-      window.location.href = "MyProject/MyCv/main-page/main-page-codes/widget/main-page.html";
+      window.location.href = "MyProjects/MyCv/main-page/main-page-codes/widget/main-page.html";
       pgfOutput.innerText = "Directing. Please wait...";
 }
