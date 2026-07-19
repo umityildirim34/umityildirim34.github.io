@@ -1,0 +1,53 @@
+{
+   "html": {
+      "str_ttl_page_title": "ANA SAYFA",
+      "str_icn_website_icon": "Websitemin simgesi",
+      "header": {
+         "str_icn_head_facebook": "Facebook simgesi",
+         "str_icn_head_instagram": "Instagram simgesi",
+         "str_icn_head_linkedin": "Linkedin simgesi"
+      },
+      "menu_bar": {
+         "str_icn_menu": "Menu simgesi",
+         "str_hlnk_about_me": "HAKKIMDA",
+         "str_hlnk_about_me_ttl": "Hakkımda adlı sayfaya geçer.",
+         "str_hlnk_communication": "İLETİŞİM",
+         "str_hlnk_communication_ttl": "Geliştiriciyle iletişim kurabileceğimiz sayfaya geçer."
+      },
+      "personel_info": {
+         "str_pgf_name_surname": "Ümit Yıldırım",
+         "str_pgf_department": "Bilgisayar Programcısı",
+         "str_icn_desktop": "Masaüstü simgesi.",
+         "str_icn_phone": "Telefon simgesi.",
+         "str_lnk_phone_number": "0544 525 82 01",
+         "str_icn_email": "Eposta simgesi",
+         "str_lnk_email": "umityildirim3410@gmail.com",
+         "str_icn_address": "Adres simgesi",
+         "str_lnk_address": "Tarsus/Mersin"
+      },
+      "about_me": {
+         "str_tt1_about_me": "HAKKIMDA",
+         "str_pgf_about_me": "Merhaba, adım Ümit. İstanbul'da, 1989 yılında doğdum. Bilgisayar programcısıyım."
+      },
+      "communication": {
+         "str_tt1_communication": "İLETİŞİM",
+         "str_pgf_communication": "0544 525 82 01"
+      },
+      "my_picture": {
+         "str_img_my_picture": "Vesikalık resmim"
+      },
+      "menu_lst": {
+         "str_vlnk_about_me": "HAKKIMDA",
+         "str_vlnk_about_me_ttl": "Hakkımda adlı sayfaya geçer.",
+         "str_vlnk_communication": "İLETİŞİM",
+         "str_vlnk_communication_ttl": "Geliştiriciyle iletişim kurabileceğimiz sayfaya geçer."
+      },
+      "bottom_side": {
+         "str_icn_bt_facebook": "Facebook simgesi",
+         "str_icn_bt_instagram": "Instagram simgesi",
+         "str_icn_bt_linkedin": "Linkedin simgesi",
+         "str_pgf_copyright": "2026. Tüm hakları saklıdır."
+      }
+   },
+   "js": {}
+}

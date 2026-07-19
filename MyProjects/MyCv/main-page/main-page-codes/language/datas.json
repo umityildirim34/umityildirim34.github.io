@@ -1,0 +1,53 @@
+{
+   "html": {
+      "str_ttl_page_title": "MAIN PAGE",
+      "str_icn_website_icon": "My website icon",
+      "header": {
+         "str_icn_head_facebook": "Facebook icon",
+         "str_icn_head_instagram": "Instagram icon",
+         "str_icn_head_linkedin": "Linkedin icon"
+      },
+      "menu_bar": {
+         "str_icn_menu": "Menu icon",
+         "str_hlnk_about_me": "ABOUT ME",
+         "str_hlnk_about_me_ttl": "It passes to the page named about me.",
+         "str_hlnk_communication": "COMMUNICATION",
+         "str_hlnk_communication_ttl": "It passes to the page we can contact developer."
+      },
+      "personel_info": {
+         "str_pgf_name_surname": "Ümit Yıldırım",
+         "str_pgf_department": "Computer Programmer",
+         "str_icn_desktop": "Desktop icon.",
+         "str_icn_phone": "Phone icon.",
+         "str_lnk_phone_number": "0544 525 82 01",
+         "str_icn_email": "Email icon",
+         "str_lnk_email": "umityildirim3410@gmail.com",
+         "str_icn_address": "Address icon",
+         "str_lnk_address": "Tarsus/Mersin"
+      },
+      "about_me": {
+         "str_tt1_about_me": "ABOUT ME",
+         "str_pgf_about_me": "Hello, my name is Ümit. I was born in İstanbul in 1989. I am a computer programmer."
+      },
+      "communication": {
+         "str_tt1_communication": "COMMUNICATION",
+         "str_pgf_communication": "0544 525 82 01"
+      },
+      "my_picture": {
+         "str_img_my_picture": "My picture"
+      },
+      "menu_lst": {
+         "str_vlnk_about_me": "ABOUT ME",
+         "str_vlnk_about_me_ttl": "It passes to the page named about me.",
+         "str_vlnk_communication": "COMMUNICATION",
+         "str_vlnk_communication_ttl": "It passes to the page we can contact developer."
+      },
+      "bottom_side": {
+         "str_icn_bt_facebook": "Facebook icon",
+         "str_icn_bt_instagram": "Instagram icon",
+         "str_icn_bt_linkedin": "Linkedin icon",
+         "str_pgf_copyright": "2026. All rights reserved."
+      }
+   },
+   "js": {}
+}

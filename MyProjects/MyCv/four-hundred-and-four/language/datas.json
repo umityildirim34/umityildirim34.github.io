@@ -1,0 +1,14 @@
+{
+   "html": {
+      "str_ttl_page_title": "404 PAGE",
+      "link_path": {
+         "str_lnk_main_page": "main page",
+         "str_lnk_four_hundred_and_four": "404 Page"
+      },
+      "process": {
+         "str_tt1_error": "404 ERROR",
+         "str_pgf_error": "There is no page like that."
+      }
+   },
+   "js": {}
+}
